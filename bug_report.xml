@@ -1,1 +1,19 @@
-
+<BugReport>
+  <BugId>1</BugId>
+  <Summury>Ошибка -Превышено время ожидания ответа от сайта sitename.com- при переходе на страницу модуля</Summury>
+  <Severity>block</Severity>
+  <Priority>high</Priority>
+  <Status>new</Status>
+  <Author>Andrey Knyshov</Author>
+  <AssignedTo>Name</AssignedTo>
+  <Environment>Windows 10 (64 бит). Google Chrome. Версия 99.0.4844.51 (Официальная сборка), (64 бит). STAGE</Environment>
+  <StepsToReproduce>
+    <StepToReproduce>Открыть страницу https://sitename.com/</StepToReproduce>
+  </StepsToReproduce>
+  <Result>Ошибка браузера -Не удается получить доступ к сайту. Превышено время ожидания ответа от сайта sitename.com-</Result>
+  <Expected Result>Страница https://sitename.com/ открывается в браузере</Expected Result>
+  <Attachments>
+    <Attachment>Attachment1</Attachment>
+    <Attachment>Attachment2</Attachment>
+  </Attachments>
+</BugReport>
